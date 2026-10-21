@@ -1,0 +1,161 @@
+@import "./AdminDashboard.css";
+
+/* Applications Specific Styles */
+
+.app-student-info strong {
+  display: block;
+  font-size: 14px;
+  color: #111827;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.app-student-info span {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.4;
+}
+
+.app-company-info strong {
+  display: block;
+  font-size: 14px;
+  color: #1e3a8a;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+
+.app-company-info span {
+  display: block;
+  font-size: 12px;
+  color: #475569;
+}
+
+.app-date-info {
+  font-size: 12px;
+  color: #64748b;
+  white-space: nowrap;
+}
+
+/* Status Badges */
+.app-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.app-status-badge.pending {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fde68a;
+}
+
+.app-status-badge.shortlisted {
+  background: #e0e7ff;
+  color: #3730a3;
+  border: 1px solid #c7d2fe;
+}
+
+.app-status-badge.selected {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #bbf7d0;
+}
+
+.app-status-badge.rejected {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+/* Update Control inline group */
+.app-update-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.app-status-select {
+  padding: 7px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #1e293b;
+  font-size: 13px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  transition: border-color 0.15s ease;
+}
+
+.app-status-select:focus {
+  border-color: #315ec8;
+  box-shadow: 0 0 0 3px rgba(49, 94, 200, 0.12);
+}
+
+.app-update-btn {
+  padding: 7px 14px;
+  background: #315ec8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.15s ease;
+}
+
+.app-update-btn:hover:not(:disabled) {
+  background: #254aa6;
+}
+
+.app-update-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.app-row-feedback {
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 4px;
+  display: block;
+}
+
+.app-row-feedback.success {
+  color: #16a34a;
+}
+
+.app-row-feedback.error {
+  color: #dc2626;
+}
+
+/* Responsive Table & Cards */
+@media (max-width: 900px) {
+  .admin-table th,
+  .admin-table td {
+    padding: 12px 8px;
+  }
+}
+
+@media (max-width: 650px) {
+  .app-update-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .app-status-select {
+    width: 100%;
+  }
+  .app-update-btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
