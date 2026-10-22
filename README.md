@@ -1,4 +1,4 @@
-Link: launchpath-taupe.vercel.app
+[LaunchPath — Live Website](https://launchpath-taupe.vercel.app/)
 
 # LaunchPath — Smart Placement Portal
 
