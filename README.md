@@ -1,3 +1,5 @@
+Link: launchpath-taupe.vercel.app
+
 # LaunchPath — Smart Placement Portal
 
 LaunchPath is a campus placement portal with a React/Vite frontend and an Express/MongoDB backend.
