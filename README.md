@@ -1,4 +1,8 @@
-[LaunchPath — Live Website](https://launchpath-taupe.vercel.app/)
+# LaunchPath — Smart Placement Portal
+
+**Live Website:** [LaunchPath — Open Application](https://launchpath-taupe.vercel.app/)
+
+LaunchPath is a campus placement portal with a React/Vite frontend and an Express/MongoDB backend.
 
 # LaunchPath — Smart Placement Portal
 
